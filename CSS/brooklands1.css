@@ -1,0 +1,94 @@
+.navbar{
+    background-color: #854798;
+    padding: 40px;
+}
+
+.ctn1{
+    background-color: #854798;
+}
+
+.t1{
+    font-size: 34px;
+    color: white;
+}
+
+.btn-info{
+    background-color: #854798;
+    border-color: #854798;
+}
+
+.YPT{
+    display: flex;
+    justify-content: center;
+}
+
+.btnPT{
+    padding: 20px;
+    background-color: #854798;
+    text-decoration: none;
+    color: white;
+}
+
+a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: white;
+}
+
+.Cookies{
+    color: #854798;
+    font-size: 48px;
+}
+
+.subcookies{
+    color: #854798;
+    font-size: 30px;
+}
+
+.cookiestxt{
+    font-size: 18px;
+}
+
+/* overlay on new features image */
+* {box-sizing: border-box}
+
+
+.image{
+    display: block;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 60%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagetitle:hover .overlay{
+    opacity: 1;
+}
+
+/* Google map */
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
