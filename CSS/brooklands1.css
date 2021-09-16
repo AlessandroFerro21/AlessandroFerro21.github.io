@@ -3,6 +3,11 @@
     padding: 40px;
 }
 
+.navbar-brand{
+    font-size: 40px;
+    padding: 20px;
+}
+
 .ctn1{
     background-color: #854798;
 }
