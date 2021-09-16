@@ -3,9 +3,13 @@
     padding: 40px;
 }
 
-.navbar-brand{
-    font-size: 40px;
-    padding: 20px;
+.navbar-item{
+    padding: 30px;
+}
+
+.BSC{
+    text-align: center;
+    font-size: 60px;
 }
 
 .ctn1{
